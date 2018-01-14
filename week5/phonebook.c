@@ -42,6 +42,7 @@ int loadData(BTA *btfile, char *text_file)
     insertNewNode(btfile, tokens);
   }
   
+  
   fclose(f);
   
   return nline;
